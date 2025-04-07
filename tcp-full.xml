@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/local/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.95 scan initiated Mon Apr  7 11:29:53 2025 as: nmap -sV -Pn -p 21,22,53,80,111,139,443,445,514,548,853,902,1723,1990,4548,5000,5001,5555,5583,6009,7000,7100,8000,8008,8009,8080,8081,8200,8443,8765,9000,9080,9100,9867,10000,10001,23010,23011,32400,33336,33337,35099,36133,39937,42421,42422,49152,49156,49403,53764,54380,56688,60651,62078 -T4 -iL masscan_ips.txt -oA tcp-full -sC -&#45;script=default,vuln -&#45;host-timeout 10m -->
+<nmaprun scanner="nmap" args="nmap -sV -Pn -p 21,22,53,80,111,139,443,445,514,548,853,902,1723,1990,4548,5000,5001,5555,5583,6009,7000,7100,8000,8008,8009,8080,8081,8200,8443,8765,9000,9080,9100,9867,10000,10001,23010,23011,32400,33336,33337,35099,36133,39937,42421,42422,49152,49156,49403,53764,54380,56688,60651,62078 -T4 -iL masscan_ips.txt -oA tcp-full -sC -&#45;script=default,vuln -&#45;host-timeout 10m" start="1744050593" startstr="Mon Apr  7 11:29:53 2025" version="7.95" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="54" services="21-22,53,80,111,139,443,445,514,548,853,902,1723,1990,4548,5000-5001,5555,5583,6009,7000,7100,8000,8008-8009,8080-8081,8200,8443,8765,9000,9080,9100,9867,10000-10001,23010-23011,32400,33336-33337,35099,36133,39937,42421-42422,49152,49156,49403,53764,54380,56688,60651,62078"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<prescript><script id="broadcast-avahi-dos" output="&#xa;  Discovered hosts:&#xa;    224.0.0.251&#xa;  After NULL UDP avahi packet DoS (CVE-2011-1002).&#xa;  Hosts are all up (not vulnerable).&#xa;"/></prescript><hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.0.0.5" addrtype="ipv4"/>
+<address addr="24:5E:BE:33:A6:5C" addrtype="mac" vendor="Qnap Systems"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.0.0.25" addrtype="ipv4"/>
+<address addr="48:21:0B:3F:0D:AE" addrtype="mac" vendor="Pegatron"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.0.0.103" addrtype="ipv4"/>
+<address addr="E0:92:8F:3C:58:A1" addrtype="mac" vendor="Texas Instruments"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.0.0.106" addrtype="ipv4"/>
+<address addr="D8:8B:4C:FD:52:54" addrtype="mac" vendor="KingTing Tech."/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.0.0.1" addrtype="ipv4"/>
+<address addr="3C:37:86:BE:1D:FB" addrtype="mac" vendor="Netgear"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.0.0.104" addrtype="ipv4"/>
+<address addr="64:FF:0A:A8:6C:D7" addrtype="mac" vendor="Wistron Neweb"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.0.0.131" addrtype="ipv4"/>
+<address addr="3C:95:09:02:7D:5F" addrtype="mac" vendor="Liteon Technology"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.0.0.101" addrtype="ipv4"/>
+<address addr="58:D3:49:E8:34:C1" addrtype="mac" vendor="Apple"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.0.0.102" addrtype="ipv4"/>
+<address addr="04:99:B9:88:AB:0E" addrtype="mac" vendor="Apple"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.0.0.107" addrtype="ipv4"/>
+<address addr="1C:3C:78:DC:3E:A2" addrtype="mac"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1744050638" endtime="1744051677" timedout="true"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.0.0.1" addrtype="ipv4"/>
+<address addr="3C:37:86:BE:1D:FB" addrtype="mac" vendor="Netgear"/>
+<hostnames>
+</hostnames>
+<times srtt="6383" rttvar="1398" to="100000"/>
+</host>
+<host starttime="1744050638" endtime="1744051677" timedout="true"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.0.0.5" addrtype="ipv4"/>
+<address addr="24:5E:BE:33:A6:5C" addrtype="mac" vendor="Qnap Systems"/>
+<hostnames>
+</hostnames>
+<times srtt="5154" rttvar="653" to="100000"/>
+</host>
+<host starttime="1744050638" endtime="1744051677" timedout="true"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.0.0.25" addrtype="ipv4"/>
+<address addr="48:21:0B:3F:0D:AE" addrtype="mac" vendor="Pegatron"/>
+<hostnames>
+<hostname name="esxi" type="PTR"/>
+</hostnames>
+<times srtt="7355" rttvar="3773" to="100000"/>
+</host>
+<host starttime="1744050638" endtime="1744051677" timedout="true"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.0.0.101" addrtype="ipv4"/>
+<address addr="58:D3:49:E8:34:C1" addrtype="mac" vendor="Apple"/>
+<hostnames>
+</hostnames>
+<times srtt="10018" rttvar="2580" to="100000"/>
+</host>
+<host starttime="1744050638" endtime="1744051677" timedout="true"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.0.0.102" addrtype="ipv4"/>
+<address addr="04:99:B9:88:AB:0E" addrtype="mac" vendor="Apple"/>
+<hostnames>
+</hostnames>
+<times srtt="41217" rttvar="16044" to="105393"/>
+</host>
+<host starttime="1744050638" endtime="1744051677" timedout="true"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.0.0.103" addrtype="ipv4"/>
+<address addr="E0:92:8F:3C:58:A1" addrtype="mac" vendor="Texas Instruments"/>
+<hostnames>
+</hostnames>
+<times srtt="6188" rttvar="3968" to="100000"/>
+</host>
+<host starttime="1744050638" endtime="1744051677" timedout="true"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.0.0.104" addrtype="ipv4"/>
+<address addr="64:FF:0A:A8:6C:D7" addrtype="mac" vendor="Wistron Neweb"/>
+<hostnames>
+</hostnames>
+<times srtt="9104" rttvar="1640" to="100000"/>
+</host>
+<host starttime="1744050638" endtime="1744051677" timedout="true"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.0.0.106" addrtype="ipv4"/>
+<address addr="D8:8B:4C:FD:52:54" addrtype="mac" vendor="KingTing Tech."/>
+<hostnames>
+</hostnames>
+<times srtt="5863" rttvar="630" to="100000"/>
+</host>
+<host starttime="1744050638" endtime="1744051677" timedout="true"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.0.0.107" addrtype="ipv4"/>
+<address addr="1C:3C:78:DC:3E:A2" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<times srtt="7539" rttvar="3369" to="100000"/>
+</host>
+<host starttime="1744050638" endtime="1744051677" timedout="true"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="10.0.0.131" addrtype="ipv4"/>
+<address addr="3C:95:09:02:7D:5F" addrtype="mac" vendor="Liteon Technology"/>
+<hostnames>
+</hostnames>
+<times srtt="12617" rttvar="2382" to="100000"/>
+</host>
+<runstats><finished time="1744051677" timestr="Mon Apr  7 11:47:57 2025" summary="Nmap done at Mon Apr  7 11:47:57 2025; 17 IP addresses (10 hosts up) scanned in 1083.96 seconds" elapsed="1083.96" exit="success"/><hosts up="10" down="7" total="17"/>
+</runstats>
+</nmaprun>
