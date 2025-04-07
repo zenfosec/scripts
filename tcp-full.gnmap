@@ -1,0 +1,22 @@
+# Nmap 7.95 scan initiated Mon Apr  7 11:29:53 2025 as: nmap -sV -Pn -p 21,22,53,80,111,139,443,445,514,548,853,902,1723,1990,4548,5000,5001,5555,5583,6009,7000,7100,8000,8008,8009,8080,8081,8200,8443,8765,9000,9080,9100,9867,10000,10001,23010,23011,32400,33336,33337,35099,36133,39937,42421,42422,49152,49156,49403,53764,54380,56688,60651,62078 -T4 -iL masscan_ips.txt -oA tcp-full -sC --script=default,vuln --host-timeout 10m
+Host: 10.0.0.1 ()	Status: Up
+Host: 10.0.0.1 ()	Status: Timeout
+Host: 10.0.0.5 ()	Status: Up
+Host: 10.0.0.5 ()	Status: Timeout
+Host: 10.0.0.25 (esxi)	Status: Up
+Host: 10.0.0.25 (esxi)	Status: Timeout
+Host: 10.0.0.101 ()	Status: Up
+Host: 10.0.0.101 ()	Status: Timeout
+Host: 10.0.0.102 ()	Status: Up
+Host: 10.0.0.102 ()	Status: Timeout
+Host: 10.0.0.103 ()	Status: Up
+Host: 10.0.0.103 ()	Status: Timeout
+Host: 10.0.0.104 ()	Status: Up
+Host: 10.0.0.104 ()	Status: Timeout
+Host: 10.0.0.106 ()	Status: Up
+Host: 10.0.0.106 ()	Status: Timeout
+Host: 10.0.0.107 ()	Status: Up
+Host: 10.0.0.107 ()	Status: Timeout
+Host: 10.0.0.131 ()	Status: Up
+Host: 10.0.0.131 ()	Status: Timeout
+# Nmap done at Mon Apr  7 11:47:57 2025 -- 17 IP addresses (10 hosts up) scanned in 1083.96 seconds

@@ -1,0 +1,39 @@
+# Nmap 7.95 scan initiated Mon Apr  7 11:29:53 2025 as: nmap -sV -Pn -p 21,22,53,80,111,139,443,445,514,548,853,902,1723,1990,4548,5000,5001,5555,5583,6009,7000,7100,8000,8008,8009,8080,8081,8200,8443,8765,9000,9080,9100,9867,10000,10001,23010,23011,32400,33336,33337,35099,36133,39937,42421,42422,49152,49156,49403,53764,54380,56688,60651,62078 -T4 -iL masscan_ips.txt -oA tcp-full -sC --script=default,vuln --host-timeout 10m
+Pre-scan script results:
+| broadcast-avahi-dos: 
+|   Discovered hosts:
+|     224.0.0.251
+|   After NULL UDP avahi packet DoS (CVE-2011-1002).
+|_  Hosts are all up (not vulnerable).
+Nmap scan report for 10.0.0.1
+Host is up (0.0064s latency).
+Skipping host 10.0.0.1 due to host timeout
+Nmap scan report for 10.0.0.5
+Host is up (0.0052s latency).
+Skipping host 10.0.0.5 due to host timeout
+Nmap scan report for esxi (10.0.0.25)
+Host is up (0.0074s latency).
+Skipping host esxi (10.0.0.25) due to host timeout
+Nmap scan report for 10.0.0.101
+Host is up (0.010s latency).
+Skipping host 10.0.0.101 due to host timeout
+Nmap scan report for 10.0.0.102
+Host is up (0.041s latency).
+Skipping host 10.0.0.102 due to host timeout
+Nmap scan report for 10.0.0.103
+Host is up (0.0062s latency).
+Skipping host 10.0.0.103 due to host timeout
+Nmap scan report for 10.0.0.104
+Host is up (0.0091s latency).
+Skipping host 10.0.0.104 due to host timeout
+Nmap scan report for 10.0.0.106
+Host is up (0.0059s latency).
+Skipping host 10.0.0.106 due to host timeout
+Nmap scan report for 10.0.0.107
+Host is up (0.0075s latency).
+Skipping host 10.0.0.107 due to host timeout
+Nmap scan report for 10.0.0.131
+Host is up (0.013s latency).
+Skipping host 10.0.0.131 due to host timeout
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Apr  7 11:47:57 2025 -- 17 IP addresses (10 hosts up) scanned in 1083.96 seconds
