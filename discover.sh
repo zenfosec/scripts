@@ -39,7 +39,7 @@ fi
 
 # Perform port scanning using masscan
 echo "Performing port scanning using masscan..."
-masscan --rate=10000 -p1-65535 --open --banners -e en0 -iL "$2" -oG "$3"
+masscan --rate=10000 -p1-65535 --open --banners -iL "$2" -oG "$3"
 if [ $? -ne 0 ]; then
     echo "Error: masscan command failed. Please check your input and try again."
     exit 1

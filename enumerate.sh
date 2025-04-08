@@ -45,4 +45,4 @@ echo "Ports: $ports"
 grep "Host:" "$1" | sed 's/.*Host: //' | tr ',' '\n' | awk '{print $1}' | sort -u -t . -k1,1n -k2,2n -k3,3n -k4,4n > masscan_ips.txt
 
 echo "Performing service enumeration and script scanning using nmap..."
-nmap -sV -Pn -p $ports -T4 -iL masscan_ips.txt -oA "$2" -sC --script=default,vuln --host-timeout 10m
+nmap -sV -Pn -p $ports -T4 -iL masscan_ips.txt -oA "$2" -sC --script=default,vuln --script-timeout 10m --host-timeout 30m
