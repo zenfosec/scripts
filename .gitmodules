@@ -1,0 +1,3 @@
+[submodule "pentest_automation/nmap_parsing_scripts"]
+	path = pentest_automation/nmap_parsing_scripts
+	url = git@github.com:zenfosec/nmap_parsing_scripts.git
